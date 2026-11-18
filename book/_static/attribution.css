@@ -1,0 +1,10 @@
+/* Attribution */
+div.attribution > .admonition-title::after {
+    content: "\f10d";
+}
+
+/* Hiermee worden alle afbeeldingen in de content 50% breed */
+img {
+    width: 50%;
+    height: auto;
+}
