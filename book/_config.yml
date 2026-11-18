@@ -3,9 +3,9 @@ author: TeachBooks Team, built with <a href="https://teachbooks.io">TeachBooks</
 
 # 1. Algemene repository instellingen (Nodig voor de 'ValueError' fix)
 repository:
-  url: https://github.com/nerdyJuffie/PythonProgrammeren
+  url: https://github.com/YasinKaryagdi/JavaProgrammeren
   path_to_book: ""
-  branch: PythonProgrammeren2
+  branch: JavaProgrammeren
 
 execute:
   execute_notebooks: "off"
@@ -14,7 +14,7 @@ only_build_toc_files: true
 
 html:
   favicon: "figures/TB_favicon.ico"
-  baseurl: "https://nerdyjuffie.github.io/PythonProgrammeren/"
+  baseurl: "https://github.com/YasinKaryagdi/JavaProgrammeren"
   use_repository_button: true
   use_download_button: true
 
@@ -26,9 +26,9 @@ sphinx:
     thebe_config:
       use_thebe_lite: true
     html_theme_options:
-      repository_url: "https://github.com/nerdyJuffie/PythonProgrammeren"
+      repository_url: "https://github.com/YasinKaryagdi/JavaProgrammeren"
       path_to_docs: ""
-      repository_branch: "PythonProgrammeren2"
+      repository_branch: "JavaProgrammeren"
       use_edit_page_button: false
       use_repository_button: true
       use_issues_button: false
@@ -36,7 +36,7 @@ sphinx:
         thebe: true
         jupyterlite: true
       logo:
-        text: Programmeren in Python
+        text: Programmeren in Java
         image_light: TeachBooks_logo.svg
         image_dark: TeachBooks_logo.svg
     html_show_copyright: false
