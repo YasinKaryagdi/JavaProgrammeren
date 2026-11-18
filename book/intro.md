@@ -1,7 +1,7 @@
 
-# Programmeren in Python
+# Programmeren in Java
 
-Lesboek programmeren in Python bedoeld voor leerlingen in havo/ vwo.
+Lesboek programmeren in Java bedoeld voor leerlingen in havo/vwo.
 
 ```{figure} figures/python_logo.jpeg
 ---
