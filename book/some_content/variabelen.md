@@ -90,7 +90,7 @@ Bekijk de namen hieronder.
 
 Als je de opgave hebt gemaakt, kun je de uitwerking hieronder bekijken.
 
-````{solution} java-variable-names
+```{solution} java-variable-names
 :label: java-variable-names-solution
 :class: dropdown
 
@@ -111,4 +111,4 @@ Als je de opgave hebt gemaakt, kun je de uitwerking hieronder bekijken.
 
 - **1. `classificatie`** — geldig en geschreven volgens de gebruikelijke afspraak voor variabelen.
 - **9. `PI`** — geldig. Hoofdletters worden vaak gebruikt voor constanten, maar de naam `PI` alleen maakt de variabele niet constant. Daarvoor gebruik je `final`, bijvoorbeeld `final double PI = 3.14159;`. Let op: Met `final` kan de variabele niet opnieuw een waarde krijgen.
-````
+```
