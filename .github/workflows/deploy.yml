@@ -20,9 +20,9 @@ jobs:
           pip install -r requirements.txt
       - name: Build the book
         run: |
-          jupyter-book build .
+          jupyter-book build book
       - name: GitHub Pages action
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./_build/html
+          publish_dir: ./book/_build/html
