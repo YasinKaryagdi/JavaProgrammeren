@@ -1,9 +1,18 @@
-# Black box: kijk naar invoer en uitvoer
+# Black box: kijk naar input en output
 
-Een **black box** is een systeem waarvan je de binnenkant niet bekijkt. Je geeft het een invoer en observeert de uitvoer.
+Een **black box** is een systeem waarvan je de binnenkant niet bekijkt. Je geeft het een input en observeert de output.
+
+```{figure} figures/blackbox.jpeg
+---
+width: 50%
+align: center
+---
+<Je ziet niet wat er gebeurt in de black box, je ziet alleen het output van een input>
+```
 
 
- Door verschillende invoer-uitvoercombinaties te vergelijken, kun je proberen af te leiden welke regel het systeem volgt.
+
+Door verschillende input-outputcombinaties te vergelijken, kun je proberen af te leiden welke regel het systeem volgt.
 
 Bijvoorbeeld:
 
