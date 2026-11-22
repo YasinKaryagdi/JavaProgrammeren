@@ -101,46 +101,56 @@ System.out.println("Hallo " + naam + "!");
 
 Voer het programma opnieuw uit met dezelfde invoer. Klopt de begroeting nu? Haal daarna de twee regels met `[DEBUG]` weg. Die waren alleen tijdelijk nodig om de fout te vinden.
 
-## Zelf proberen: favoriete hobby
+## Zelf proberen: gemiddelde in Magister
 
-Dit programma vraagt om een naam en een hobby. De tweede uitvoerregel is niet goed.
+Je wilt het gemiddelde berekenen van drie cijfers. Het programma leest de cijfers in, berekent het gemiddelde en print het. Er zit een logische fout in de berekening.
 
 ```java
 import java.util.Scanner;
 
-public class Hobby {
+public class Gemiddelde {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Naam: ");
-        String naam = scanner.nextLine();
+        System.out.print("Cijfer 1: ");
+        double cijfer1 = scanner.nextDouble();
 
-        System.out.print("Hobby: ");
-        String hobby = scanner.nextLine();
+        System.out.print("Cijfer 2: ");
+        double cijfer2 = scanner.nextDouble();
 
-        System.out.println("Hallo " + naam + "!");
-        System.out.println("Je hobby is " + naam + ".");
+        System.out.print("Cijfer 3: ");
+        double cijfer3 = scanner.nextDouble();
+        
+
+        double totaal = cijfer1 + cijfer2 + cijfer2;
+        double gemiddelde = totaal / 2;
+
+        System.out.println("Gemiddelde: " + gemiddelde);
     }
 }
 ```
 
-Gebruik als invoer:
+Eén test kan soms toevallig de verwachte uitvoer geven, ook als er fouten in het programma zitten. Probeer het programma daarom met **beide** invoercombinaties:
 
-```text
-Naam: Mila
-Hobby: volleybal
-```
+| Test | Cijfer 1 | Cijfer 2 | Cijfer 3 | Verwacht gemiddelde |
+|---|---:|---:|---:|---:|
+| 1 | 6 | 2 | 7 | 5.0 |
+| 2 | 6 | 8 | 10 | 8.0 |
 
-1. Wat is de verwachte uitvoer van de tweede regel?
-2. Voeg na het inlezen van de invoer en vóór de gewone uitvoerregels een debug-print toe voor `naam` en een voor `hobby`.
-3. Voer het programma uit. Wat vertellen de debug-prints je?
-4. Welke regel moet je aanpassen? Test je aanpassing met dezelfde invoer.
-5. Verwijder daarna de tijdelijke debug-prints.
+1. Voer test 1 uit. Komt de uitvoer overeen met het verwachte gemiddelde?
+2. Voer test 2 uit. Komt de uitvoer nu ook overeen?
+3. Voeg vóór de uitvoerregel debug-prints toe voor `cijfer1`, `cijfer2`, `cijfer3`, `totaal` en `gemiddelde`.
+4. Voer test 2 nog eens uit. Zijn de cijfers goed ingelezen? Klopt de som? Klopt het gemiddelde?
+5. Zoek de fouten in de code en herstel ze
+6. Test opnieuw met invoer van test 2. Klopt het nu? Zo nee, probeer het opnieuw. 
+7. Klopt het nog voor de invoer van test 1? Zo ja, verwijder dan de tijdelijke debug-prints.
+
 
 ## Onthoud
 
 - Test met invoer waarbij het probleem zichtbaar wordt.
 - Vergelijk wat je verwacht met wat er werkelijk gebeurt.
+- Een geslaagde test bewijst niet dat een programma altijd goed werkt, test dus met meerdere invoer.
 - Print tijdelijk de waarden die je wilt controleren.
 - Verander de code pas als je een aanwijzing hebt gevonden.
 - Test na je aanpassing opnieuw en haal tijdelijke debug-uitvoer weg.
