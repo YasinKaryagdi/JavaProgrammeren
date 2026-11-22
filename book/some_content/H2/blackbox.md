@@ -1,6 +1,9 @@
 # Black box: kijk naar invoer en uitvoer
 
-Een **black box** is een systeem waarvan je de binnenkant niet bekijkt. Je geeft het een invoer en observeert de uitvoer. Door verschillende invoer-uitvoercombinaties te vergelijken, kun je proberen af te leiden welke regel het systeem volgt.
+Een **black box** is een systeem waarvan je de binnenkant niet bekijkt. Je geeft het een invoer en observeert de uitvoer.
+
+
+ Door verschillende invoer-uitvoercombinaties te vergelijken, kun je proberen af te leiden welke regel het systeem volgt.
 
 Bijvoorbeeld:
 

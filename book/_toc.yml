@@ -15,18 +15,13 @@ parts:
           - file: some_content/H1/oefeningen_variabelen_print
           #- file: some_content/variabelen_printen_oefenen
           #- file: some_content/variabelen_parsons
-      - file: some_content/hoofdstuk2
+      - file: some_content/H2/hoofdstuk2
         sections:
-          - file: some_content/input
-          - file: some_content/rekenen
-          #- file: some_content/oefeneningen_input_output
-          - file: some_content/input_output_oefeningen
-          - file: some_content/input_output_fouten
-         # - file: some_content/oefeningen_rekenen
-          - file: some_content/rekenen_oefenen
-          - file: some_content/rekenen2
-          - file: some_content/rekenen2_parsons
-          - file: some_content/verkorte_operatoren
+          - file: some_content/H2/input
+          - file: some_content/H2/blackbox
+          - file: some_content/H2/testen_debuggen
+          - file: some_content/H2/booleaans_basis
+          - file: some_content/H2/oefeningen_week2
       - file: some_content/hoofdstuk3
         sections:
           - file: some_content/oefeningen_hoofdstuk3
