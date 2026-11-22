@@ -4,7 +4,7 @@ Als je een programma ontwerpt, hoef je niet meteen te weten hoe je het gaat prog
 
 Een **black box** helpt je om op dat gewenste gedrag te focussen. Je beschrijft of test het systeem aan de hand van de input die je geeft en de output die je verwacht. Wat er binnenin gebeurt, is op dat moment nog niet belangrijk. De implementatie kan later komen.
 
-```{figure} figures/blackbox.jpeg
+```{figure} figures/blackbox.jpg
 ---
 width: 50%
 align: center
@@ -26,7 +26,7 @@ Deze tabel beschrijft wat het programma moet doen. We hebben nog niet besloten h
 
 Hieronder staan vier tabellen met input en verwachte output, en vier Java-codefragmenten. Sleep elk programma naar de tabel waarvan de voorbeelden passen bij het gedrag van dat programma. Gebruik alle programma’s precies één keer. Klik daarna op **Controleer**.
 
-In deze oefening bekijk je de code wél: je koppelt een beschrijving van gewenst gedrag aan een mogelijke implementatie. Dat is de stap ná het beschrijven van input en output. Kijk steeds naar alle rijen in een tabel, niet alleen naar één voorbeeld. In elk fragment is `getal` de ingevoerde waarde en wordt `uitvoer` geprint.
+In deze oefening bekijk je de code wél: je koppelt een beschrijving van gewenst gedrag aan een mogelijke implementatie. Dat is de stap ná het beschrijven van input en output. Kijk steeds naar alle rijen in een tabel, niet alleen naar één voorbeeld. In elk fragment is `invoer` de ingevoerde waarde en wordt `uitvoer` geprint. Na het koppelen blijft het codefragment bij de tabel zichtbaar.
 
 ```{raw} html
 <div id="blackbox-match" class="bb-widget">
@@ -51,6 +51,7 @@ In deze oefening bekijk je de code wél: je koppelt een beschrijving van gewenst
     #blackbox-match .bb-drop.bb-over { border-color: #2563eb; background: #eff6ff; }
     #blackbox-match .bb-drop-label { color: #475569; font-size: .9rem; }
     #blackbox-match .bb-assigned { font-weight: 600; }
+    #blackbox-match .bb-assigned-code { overflow-x: auto; padding: .45rem; background: #f1f5f9; border-radius: 5px; }
     #blackbox-match button { border: 1px solid #64748b; border-radius: 6px; padding: .4rem .6rem; background: #fff; color: #172033; cursor: pointer; }
     #blackbox-match button:hover { background: #f1f5f9; }
     #blackbox-match .bb-remove { display: block; margin-top: .45rem; font-size: .85rem; }
@@ -85,10 +86,10 @@ In deze oefening bekijk je de code wél: je koppelt een beschrijving van gewenst
     if (!root) return;
 
     const programs = [
-      { id: 'A', title: 'Programma A', code: 'int uitvoer = (int) Math.pow(2, getal);' },
-      { id: 'B', title: 'Programma B', code: 'int uitvoer = getal + 1;' },
-      { id: 'C', title: 'Programma C', code: 'int uitvoer = getal * getal;' },
-      { id: 'D', title: 'Programma D', code: 'int uitvoer = getal * 2;' }
+      { id: 'A', title: 'Programma A', code: 'int uitvoer = (int) Math.pow(2, invoer);' },
+      { id: 'B', title: 'Programma B', code: 'int uitvoer = invoer + 1;' },
+      { id: 'C', title: 'Programma C', code: 'int uitvoer = invoer * invoer;' },
+      { id: 'D', title: 'Programma D', code: 'int uitvoer = invoer * 2;' }
     ];
 
     const tables = [
@@ -171,6 +172,14 @@ In deze oefening bekijk je de code wél: je koppelt een beschrijving van gewenst
           label.className = 'bb-assigned';
           label.textContent = chosen.title;
           drop.appendChild(label);
+
+          const snippet = document.createElement('pre');
+          snippet.className = 'bb-assigned-code';
+          const code = document.createElement('code');
+          code.textContent = chosen.code;
+          snippet.appendChild(code);
+          drop.appendChild(snippet);
+
           const remove = document.createElement('button');
           remove.type = 'button';
           remove.className = 'bb-remove';
@@ -222,10 +231,5 @@ In deze oefening bekijk je de code wél: je koppelt een beschrijving van gewenst
 2. Waarom is één voorbeeld soms niet genoeg om te bepalen of een implementatie aan de beschrijving voldoet?
 3. Welk programma geeft bij input 4 de output 16?
 
-```{admonition} Voor de docent: test de interactieve versie
-:class: tip
-
-De sleepfunctie gebruikt alleen HTML en JavaScript en heeft geen externe bibliotheken nodig. De oefening staat in een MyST `raw`-directive. Of JavaScript in de uiteindelijke Jupyter Book-pagina wordt uitgevoerd, hangt af van de MyST/Sphinx-configuratie en eventuele beveiligingsinstellingen van de publicatieomgeving. Test daarom de gebouwde pagina én de gepubliceerde versie. Als scripts worden verwijderd of geblokkeerd, moet de interactieve code via een door jullie omgeving toegestane route worden toegevoegd.
-```
 
 <!-- Antwoordsleutel: Tabel 1 = C, Tabel 2 = B, Tabel 3 = A, Tabel 4 = D. -->
