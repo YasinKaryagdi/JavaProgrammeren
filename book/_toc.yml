@@ -2,11 +2,11 @@ format: jb-book
 root: intro
 
 parts:
-  - caption: Cursus Python voor havo/vwo leerlingen
+  - caption: Cursus Java voor havo/vwo leerlingen
     numbered: false
     chapters:
       - file: some_content/skillstree.md
-        title: "🌲 Python Skill Tree"
+        title: "🌲 Java Skill Tree"
       - file: some_content/overview
       - file: some_content/H1/hoofdstuk1
         sections:
@@ -18,7 +18,7 @@ parts:
       - file: some_content/H2/hoofdstuk2
         sections:
           - file: some_content/H2/input
-          #- file: some_content/H2/blackbox
+          - file: some_content/H2/blackbox
           - file: some_content/H2/testen_debuggen
           - file: some_content/H2/booleaans_basis
           - file: some_content/H2/oefeningen_week2
