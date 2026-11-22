@@ -4,7 +4,7 @@ Als je een programma ontwerpt, hoef je niet meteen te weten hoe je het gaat prog
 
 Een **black box** helpt je om op dat gewenste gedrag te focussen. Je beschrijft of test het systeem aan de hand van de input die je geeft en de output die je verwacht. Wat er binnenin gebeurt, is op dat moment nog niet belangrijk. De implementatie kan later komen.
 
-```{figure} figures/blackbox.jpg
+```{figure} ../../figures/blackbox.jpg
 ---
 width: 50%
 align: center
@@ -26,7 +26,6 @@ Deze tabel beschrijft wat het programma moet doen. We hebben nog niet besloten h
 
 Hieronder staan vier tabellen met input en verwachte output, en vier Java-codefragmenten. Sleep elk programma naar de tabel waarvan de voorbeelden passen bij het gedrag van dat programma. Gebruik alle programma’s precies één keer. Klik daarna op **Controleer**.
 
-In deze oefening bekijk je de code wél: je koppelt een beschrijving van gewenst gedrag aan een mogelijke implementatie. Dat is de stap ná het beschrijven van input en output. Kijk steeds naar alle rijen in een tabel, niet alleen naar één voorbeeld. In elk fragment is `invoer` de ingevoerde waarde en wordt `uitvoer` geprint. Na het koppelen blijft het codefragment bij de tabel zichtbaar.
 
 ```{raw} html
 <div id="blackbox-match" class="bb-widget">
@@ -60,6 +59,40 @@ In deze oefening bekijk je de code wél: je koppelt een beschrijving van gewenst
     @media (max-width: 700px) {
       #blackbox-match .bb-layout { grid-template-columns: 1fr; }
       #blackbox-match .bb-tables { grid-template-columns: 1fr; }
+    }
+    #blackbox-match .bb-tables {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: .5rem;
+    }
+
+    #blackbox-match .bb-table-card {
+      padding: .5rem;
+    }
+
+    #blackbox-match .bb-table-card h4 {
+      margin-bottom: .35rem;
+      font-size: .95rem;
+    }
+
+    #blackbox-match table {
+      margin-bottom: .4rem;
+      font-size: .88rem;
+    }
+
+    #blackbox-match th,
+    #blackbox-match td {
+      padding: .2rem;
+    }
+
+    #blackbox-match .bb-drop {
+      min-height: 42px;
+      padding: .4rem;
+    }
+
+    @media (max-width: 420px) {
+      #blackbox-match .bb-tables {
+        grid-template-columns: 1fr;
+      }
     }
   </style>
 
@@ -226,10 +259,25 @@ In deze oefening bekijk je de code wél: je koppelt een beschrijving van gewenst
 ```
 
 ## Denk na
+```{raw} html
+<details>
+  <summary>Wat levert het op om vóór het programmeren vast te leggen wat er in een programma gaat en wat eruit moet komen?</summary>
 
-1. Welke input-outputcombinatie hielp jou het meest bij het controleren?
-2. Waarom is één voorbeeld soms niet genoeg om te bepalen of een implementatie aan de beschrijving voldoet?
-3. Welk programma geeft bij input 4 de output 16?
+  <p><strong>Mogelijk antwoord:</strong> Je weet vooraf wat het programma moet doen. Daardoor kun je gerichter programmeren en later controleren of het resultaat aan de verwachting voldoet.</p>
+</details>
+
+<details>
+  <summary>Hoe helpt een input-outputtabel om te controleren of een programma doet wat je verwacht?</summary>
+
+  <p><strong>Mogelijk antwoord:</strong> De tabel laat zien welke uitvoer bij verschillende inputs hoort. Je kunt de voorbeelden gebruiken om te testen of het programma de verwachte uitvoer geeft.</p>
+</details>
+
+<details>
+  <summary>Wat zou er mis kunnen gaan als je meteen begint met code schrijven?</summary>
+
+  <p><strong>Mogelijk antwoord:</strong> Je kunt een programma maken dat wel werkt, maar niet doet wat nodig is. Ook kun je belangrijke situaties over het hoofd zien of later veel code moeten aanpassen.</p>
+</details>
+```
 
 
 <!-- Antwoordsleutel: Tabel 1 = C, Tabel 2 = B, Tabel 3 = A, Tabel 4 = D. -->
