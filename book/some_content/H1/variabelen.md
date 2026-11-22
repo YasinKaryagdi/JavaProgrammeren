@@ -90,24 +90,24 @@ Bekijk de namen hieronder.
 
 Als je de opgave hebt gemaakt, kun je de uitwerking hieronder bekijken.
 
-```{solution} java-variable-names
+```{solution}
 :label: java-variable-names-solution
 :class: dropdown
 
-### Namen die Java niet accepteert
+Namen die Java niet accepteert
 
 - **3. `cl@ssificatie`** — `@` mag niet in deze naam voorkomen.
 - **5. `1classificatie`** — een naam mag niet met een cijfer beginnen.
 - **7. `class`** — `class` is een gereserveerd woord in Java.
 
-### Namen die geldig zijn, maar als variabelenaam worden afgeraden
+Namen die geldig zijn, maar als variabelenaam worden afgeraden
 
 - **2. `Classificatie`** — geldig, maar variabelen beginnen volgens de afspraak met een kleine letter. 
 - **4. `class1f1cat1e`** — geldig, maar moeilijk te lezen. Gebruik een duidelijke naam zoals `classificatie`.
 - **6. `_classificatie`** — geldig, maar een underscore aan het begin is niet de gebruikelijke schrijfwijze. 
 - **8. `Class`** — geldig, maar een hoofdletter aan het begin past niet bij de afspraak voor variabelen.
 
-### Geldige en bruikbare namen
+Geldige en bruikbare namen
 
 - **1. `classificatie`** — geldig en geschreven volgens de gebruikelijke afspraak voor variabelen.
 - **9. `PI`** — geldig. Hoofdletters worden vaak gebruikt voor constanten, maar de naam `PI` alleen maakt de variabele niet constant. Daarvoor gebruik je `final`, bijvoorbeeld `final double PI = 3.14159;`. Let op: Met `final` kan de variabele niet opnieuw een waarde krijgen.
