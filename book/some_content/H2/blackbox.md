@@ -1,34 +1,32 @@
 # Black box: kijk naar input en output
 
-Een **black box** is een systeem waarvan je de binnenkant niet bekijkt. Je geeft het een input en observeert de output.
+Als je een programma ontwerpt, hoef je niet meteen te weten hoe je het gaat programmeren. Begin met de vraag: **wat moet erin gaan, en wat moet eruit komen?**
+
+Een **black box** helpt je om op dat gewenste gedrag te focussen. Je beschrijft of test het systeem aan de hand van de input die je geeft en de output die je verwacht. Wat er binnenin gebeurt, is op dat moment nog niet belangrijk. De implementatie kan later komen.
 
 ```{figure} figures/blackbox.jpeg
 ---
 width: 50%
 align: center
 ---
-<Je ziet niet wat er gebeurt in de black box, je ziet alleen het output van een input>
+Je ziet de input en de output. Wat er binnenin de black box gebeurt, hoef je nog niet te weten.
 ```
 
+Bijvoorbeeld: stel dat we een programma willen maken dat bij elk ingevoerd getal 1 optelt. We kunnen eerst vastleggen welk gedrag we verwachten:
 
-
-Door verschillende input-outputcombinaties te vergelijken, kun je proberen af te leiden welke regel het systeem volgt.
-
-Bijvoorbeeld:
-
-| Invoer | Uitvoer |
+| Input | Verwachte output |
 |---:|---:|
 | 1 | 2 |
 | 2 | 3 |
 | 11 | 12 |
 
-Deze voorbeelden passen bij de regel: tel er 1 bij op. We weten dat doordat we het gedrag hebben getest; bij een echte black box hoeven we de code binnenin niet te zien.
+Deze tabel beschrijft wat het programma moet doen. We hebben nog niet besloten hoe we dat programmeren. Later kunnen we de code schrijven en testen of die bij de voorbeelden de verwachte output geeft. Verschillende implementaties kunnen hetzelfde gedrag opleveren.
 
-## Oefening: welke code hoort bij welke tabel?
+## Oefening: welke code past bij welke beschrijving?
 
-Hieronder zie je vier tabellen met waargenomen invoer en uitvoer, en vier Java-codefragmenten. Sleep elk programma naar de tabel waarvan de uitkomsten erbij passen. Gebruik alle programma’s precies één keer. Klik daarna op **Controleer**.
+Hieronder staan vier tabellen met input en verwachte output, en vier Java-codefragmenten. Sleep elk programma naar de tabel waarvan de voorbeelden passen bij het gedrag van dat programma. Gebruik alle programma’s precies één keer. Klik daarna op **Controleer**.
 
-In deze oefening zijn de codefragmenten dus wél zichtbaar: je gebruikt ze om de waargenomen black-boxgegevens aan het juiste programma te koppelen. Kijk steeds naar alle rijen in een tabel, niet alleen naar één voorbeeld. In elk fragment is `getal` de ingevoerde waarde en wordt `uitvoer` geprint.
+In deze oefening bekijk je de code wél: je koppelt een beschrijving van gewenst gedrag aan een mogelijke implementatie. Dat is de stap ná het beschrijven van input en output. Kijk steeds naar alle rijen in een tabel, niet alleen naar één voorbeeld. In elk fragment is `getal` de ingevoerde waarde en wordt `uitvoer` geprint.
 
 ```{raw} html
 <div id="blackbox-match" class="bb-widget">
@@ -220,9 +218,9 @@ In deze oefening zijn de codefragmenten dus wél zichtbaar: je gebruikt ze om de
 
 ## Denk na
 
-1. Welke invoer-uitvoercombinatie hielp jou het meest bij het kiezen?
-2. Waarom is één voorbeeld soms niet genoeg om een programma te herkennen?
-3. Welk programma geeft bij invoer 4 de uitvoer 16?
+1. Welke input-outputcombinatie hielp jou het meest bij het controleren?
+2. Waarom is één voorbeeld soms niet genoeg om te bepalen of een implementatie aan de beschrijving voldoet?
+3. Welk programma geeft bij input 4 de output 16?
 
 ```{admonition} Voor de docent: test de interactieve versie
 :class: tip
