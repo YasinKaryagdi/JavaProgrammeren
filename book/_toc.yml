@@ -57,6 +57,7 @@ parts:
       #     - file: some_content/raadt_het_getal
 
   - caption: Installatie en project aanmaken
+    chapters:
     - file: some_content/extra/installatie
     - file: some_content/extra/project_aanmaken
       sections:
