@@ -1,5 +1,6 @@
 # Black box: kijk naar input en output
 
+## TODO benoem even wat input en output zijn. Verwerk dan in uitleg het woord "methode".
 Als je een programma ontwerpt, hoef je niet meteen te weten hoe je het gaat programmeren. Begin met de vraag: **wat moet erin gaan, en wat moet eruit komen?**
 
 Een **black box** helpt je om op dat gewenste gedrag te focussen. Je beschrijft of test het systeem aan de hand van de input die je geeft en de output die je verwacht. Wat er binnenin gebeurt, is op dat moment nog niet belangrijk. De implementatie kan later komen.

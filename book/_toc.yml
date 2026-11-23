@@ -8,6 +8,7 @@ parts:
       # - file: some_content/skillstree.md
       #   title: "🌲 Java Skill Tree"
       - file: some_content/overview
+      - file: some_content/extra/installatie
       - file: some_content/H1/hoofdstuk1
         sections:
           - file: some_content/H1/variabelen
@@ -17,8 +18,8 @@ parts:
           #- file: some_content/variabelen_parsons
       - file: some_content/H2/hoofdstuk2
         sections:
-          - file: some_content/H2/input
           - file: some_content/H2/blackbox
+          - file: some_content/H2/input
           - file: some_content/H2/testen_debuggen
           - file: some_content/H2/booleaans_basis
           - file: some_content/H2/oefeningen_week2
