@@ -11,7 +11,7 @@ parts:
       - file: some_content/H1/hoofdstuk1
         sections:
           - file: some_content/H1/variabelen
-          - file: some_content/H1/toekennen_en_wijzigen
+          - file: some_content/H1/declareren_initialiseren_en_toekennen
           - file: some_content/H1/oefeningen_variabelen_print
           #- file: some_content/variabelen_printen_oefenen
           #- file: some_content/variabelen_parsons
