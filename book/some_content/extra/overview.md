@@ -1,8 +1,7 @@
 # "Programmeren in Java". 
 
 ## Benoem hier wat een programma is, de verschillende onderdelen zijn van het process (design, coderen, evaluatie) Voeg plaatje toe
-
-In deze cursus programmeren in Python leer je de basisbeginselen van programmeren in Python 3.0 . Ik ga met jullie stap voor stap de wereld in van programmeren in Python.
+In deze cursus gaan we leren om visueel te programmeren in Java. Het is dan belangrijk om te bedenken wat we bedoelen met 
 
 
 
@@ -19,3 +18,8 @@ In deze cursus programmeren in Python leer je de basisbeginselen van programmere
 8. [Nog meer herhaling ... for-loops](hoofdstuk8.md) 
 9. [Functionele functies](hoofdstuk9.md)
 10. Wrap it all up... Alles komt tezamen -->
+
+## Belangrijke pagina's
+We moeten eerst een programma installeren om Java programma's te kunnen schrijven. Verder moeten we leren hoe we een project maken. Het is vooral belangrijk dat we weet hoe je een project aanmaakt omdat we dit voor elke opdracht weer doen. 
+1. [Installatie](installatie.md)
+2. [Java project aanmaken](project_aanmaken.md)

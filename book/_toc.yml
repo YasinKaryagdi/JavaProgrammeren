@@ -8,7 +8,6 @@ parts:
       # - file: some_content/skillstree.md
       #   title: "🌲 Java Skill Tree"
       - file: some_content/overview
-      - file: some_content/extra/installatie
       - file: some_content/H1/hoofdstuk1
         sections:
           - file: some_content/H1/variabelen
@@ -56,9 +55,14 @@ parts:
       #     - file: some_content/snackmachine
       #     - file: some_content/treinreisplanner
       #     - file: some_content/raadt_het_getal
+      - file: some_content/extra/installatie
+      - file: some_content/extra/project_aanmaken
+        sections:
+          - file: some_content/extra/class_bestand_aanmaken
+          - file: some_content/extra/Jframe_bestand_aanmaken
 
-  - caption: Miscellaneous
-    chapters:
-      - file: references
-      - file: changelog
-      - file: credits
+  # - caption: Miscellaneous
+  #   chapters:
+  #     - file: references
+  #     - file: changelog
+  #     - file: credits
