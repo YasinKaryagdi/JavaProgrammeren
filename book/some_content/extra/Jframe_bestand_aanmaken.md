@@ -1,2 +1,2 @@
 # Jframe bestand aanmaken
-temp
+Dit staat voorlopig nog leeg omdat Jframes pas later aan bod komen.

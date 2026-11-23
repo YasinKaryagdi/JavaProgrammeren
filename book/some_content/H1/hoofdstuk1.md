@@ -4,12 +4,11 @@ Dit hoofdstuk bestaat uit de volgende paragrafen:
 
 1. [Variabelen](variabelen.md)
 
-   In deze paragraaf leg ik uit wat variabelen zijn, welk typen waarden variabelen kunnen bevatten en welke eisen er zijn aan de naamgeving van variabelen.
+   In deze paragraaf leer je wat variabelen zijn, welk typen waarden variabelen kunnen bevatten en welke eisen er zijn aan de naamgeving van variabelen.
 
-2. [Waarden toekennen en wijzigen](toekennen_en_wijzigen.md)
+2. [Declareren, initialiseren en toekennen](declareren_initialiseren_en_toekennen.md)
+   In deze paragraaf leer je variabelen declareren, initialiseren en nieuwe waarden geven. Met eenvoudige printopdrachten bekijk je wat er in de variabelen staat.
 
-   In deze paragraaf ga ik uitleggen hoe je waarden aan een variabelen kunt toekennen en hoe je waarden kunt wijzigen en gebruiken we de eenvoudige printopdracht. 
 
 3. [Printopdracht nader uitgelegd](oefeningen_variabelen_print.md)
-
-   In dit laatste paragraafje kijken we nog even verder naar printopdrachten en sluiten we af met een paar kleine opdrachten.
+   Je oefent met tekst en variabelen tonen in de console. Je gebruikt println, plakt tekst en waarden aan elkaar en maakt uitvoer met printf.

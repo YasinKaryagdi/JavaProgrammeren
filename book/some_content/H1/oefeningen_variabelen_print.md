@@ -32,7 +32,7 @@ public class PrintOefening {
         System.out.println("Hallo wereld");
 
         // 2. Variabelen en concatenatie
-        String voornaam = "Havo";
+        String voornaam = "Vwo";
         String achternaam = "Leerling";
 
         // OPDRACHT: print hier een begroeting met voornaam en achternaam.
@@ -45,7 +45,7 @@ public class PrintOefening {
         double cijfer = 7.5;
         System.out.println("Mijn cijfer is: " + cijfer);
 
-        String cijferAlsTekst = String.valueOf(cijfer);
+        String cijferAlsTekst = String._(cijfer); // <- Welke methode moet je hier gebruiken?
         System.out.println("Het cijfer als tekst is: " + cijferAlsTekst);
 
         String straatnaam = "Dorpsstraat";
@@ -96,7 +96,7 @@ Met `+` kun je tekst aan elkaar plakken. Dit heet **concatenatie**. Java voegt z
 1. Gebruik de variabelen `voornaam` en `achternaam` om deze uitvoer te maken:
 
    ```text
-   Hallo Havo Leerling
+   Hallo Vwo Leerling
    ```
 
 2. Gebruik `leeftijdVoorbeeld` in een zin, bijvoorbeeld: `Ik ben 16 jaar oud.`

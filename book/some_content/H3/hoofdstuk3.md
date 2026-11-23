@@ -1,4 +1,7 @@
-# Afronden, machten en wortels
+# Decompositie, pseudocode, keuzes en rekenen
+Hey lieve leerling! Wat fijn dat je zo enthousiast bent!!! Helaas ben ik nog druk bezig met het opstellen van deze site... Dus voorlopig is H3 net een mythe, hahaha.... Oke, wordt eens tijd dat we weer eens aan de slag gingen! Wens je nog een fijne dag!!! Als je vragen hebt kan je ze natuurlijk altijd stellen
+
+<!-- # Afronden, machten en wortels
 
 In dit hoofdstuk leer je hoe je in Python getallen bewerkt die verder gaan dan simpel optellen of aftrekken.
 
@@ -27,4 +30,4 @@ Voor het trekken van wortels gebruik je meestal één van deze twee methoden:
 
 ---
 
-### Maak nu op de volgende bladzijde de oefeningen en controleer jezelf.
+### Maak nu op de volgende bladzijde de oefeningen en controleer jezelf. -->

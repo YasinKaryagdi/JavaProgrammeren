@@ -23,6 +23,9 @@ Bijvoorbeeld: stel dat we een programma willen maken dat bij elk ingevoerd getal
 
 Deze tabel beschrijft wat het programma moet doen. We hebben nog niet besloten hoe we dat programmeren. Later kunnen we de code schrijven en testen of die bij de voorbeelden de verwachte output geeft. Verschillende implementaties kunnen hetzelfde gedrag opleveren.
 
+## Functies/Methode
+Functies zijn ..., ze zijn handig omdat ... In Java worden functies ook wel **methode** genoemd. Het blackbox principe is hier handig om in te zetten, je hoeft bij methodes namelijk niet precies te weten wat erin gebeurt, alleen wat je erin moet stoppen, en wat er vervolgens uit komt, oftewel **hoe je het gebruikt**.
+
 ## Oefening: welke code past bij welke beschrijving?
 
 Hieronder staan vier tabellen met input en verwachte output, en vier Java-codefragmenten. Sleep elk programma naar de tabel waarvan de voorbeelden passen bij het gedrag van dat programma. Gebruik alle programma’s precies één keer. Klik daarna op **Controleer**.

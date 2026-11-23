@@ -9,4 +9,8 @@ Kan ik hier ipv rekenen het hebben over boolean?
 H3:
 Decompositie
 Psuedocode
+keuze
+herhalen
 Zou nice zijn om hier te kijken naar rekenen, omdat je dan goed gebruik kan maken van de concepten
+
+rekenmachine + cijfertellen (tel zoveel cijfers)
