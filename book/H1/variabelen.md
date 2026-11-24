@@ -43,7 +43,7 @@ Een type bepaalt wat voor soort waarde een variabele kan bevatten. Veelgebruikte
 - **`String`**: tekst (dus een reeks karakters), bijvoorbeeld `"Hallo!"`; gebruik dubbele aanhalingstekens.
 - **`boolean`**: `true` of `false`
 
-**Let op:** `String` begint met een hoofdletter. Java maakt onderscheid tussen hoofdletters en kleine letters: `String` en `string` zijn niet hetzelfde. Dat geldt ook voor variabelen: `anderGetal` en `andergetal` zijn **verschillende** namen.
+**Let op:** `String` begint met een hoofdletter. **Java maakt onderscheid tussen hoofdletters en kleine letters**: `String` en `string` zijn niet hetzelfde. Dat geldt ook voor variabelen: `anderGetal` en `andergetal` zijn **verschillende** namen.
 
 ## Regels en afspraken voor namen
 
