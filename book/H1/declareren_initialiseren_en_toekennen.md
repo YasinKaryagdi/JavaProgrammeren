@@ -1,6 +1,6 @@
 # Declareren, initialiseren en toekennen
 
-In de vorige paragraaf heb je gezien wat een variabele is: een naam waarmee je naar een waarde verwijst. In Java geef je ook aan welk type waarde bij die variabele hoort.
+Op de vorige pagina heb je gezien dat een variabele een **gelabelde doosje** is waarin een programma een waarde van een bepaald type bijhoudt.
 
 Bij het werken met variabelen gebruiken we drie begrippen:
 
