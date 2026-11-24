@@ -159,4 +159,4 @@ Controleer of je de juiste aanduidingen gebruikt: `%s` voor tekst en `%d` voor e
 
 1. Sla `PrintOefening.java` op.
 2. Voer het programma nog één keer uit en controleer of je eindopdracht zichtbaar is in de Console.
-3. Lever het `.java`-bestand in via de opdracht in Microsoft Teams. Lever het volledige project in als daar specifiek om wordt gevraagd.
+3. Lever het `.java`-bestand in via de opdracht in Itslearning.

@@ -14,8 +14,7 @@ System.out.println(som);
 
 De computer toont `7`.
 
-# TODO, voeg foto toe en maak dit toggelable
-> Let op: De codevoorbeelden op deze pagina zijn losse fragmenten. In een Java-programma plaats je ze binnen de `main`-methode. Als je de stappen hebt gezet hoor je het volgende scherm te zien. We plakken de code in de `main`-methode. We runnen de code door op het groene knopje bovenin te klikken. De console zit onderin, daar zien we het resultaat `7`
+> Let op: De codevoorbeelden op deze pagina zijn losse fragmenten. In een Java-programma plaats je ze binnen de `main`-methode. Weet je niet hoe dit moet? Kijk dan even naar [Programma uitvoeren](../extra/programma_uitvoeren.md).
 
 Een **variabele** is een naam waarmee je in je programma naar een waarde verwijst. In Java geef je bij het maken van een variabele ook aan welk **type** waarde erin hoort. In het voorbeeld is `int` het type en zijn `getal` en `anderGetal` de namen van de variabelen.
 
