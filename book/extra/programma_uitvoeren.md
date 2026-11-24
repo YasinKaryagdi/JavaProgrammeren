@@ -15,10 +15,8 @@ Als het goed is heb je een `PrintOefening.java` in je project. Wanneer je deze o
 width: 100%
 align: center
 ---
-
+**Let op!** Hier zit nog geen zelfgeschreven code in!
 ```
-
->**Let op!** Hier zit nog geen zelfgeschreven code!
 
 We gaan nu code toevoegen en uitvoeren, in 3 stappen (kijk naar de afbeelding):
 1. Wanneer we code schrijven stoppen we het in de main methode. **Let op!!** de code moet echt tussen de haakjes gestopt worden!!! het moet dus tussen de **{** en de **}** van main.
@@ -30,5 +28,5 @@ We gaan nu code toevoegen en uitvoeren, in 3 stappen (kijk naar de afbeelding):
 width: 100%
 align: center
 ---
-<De relevante onderdelen van elke stap is omcirkeld. Als je alle drie de stappen hebt uitgevoerd hoor je een 7 te zien in je console.>
+Het relevante onderdeel van elke stap is omcirkeld. Als je alle drie de stappen hebt uitgevoerd hoor je een 7 te zien in je console.
 ```
