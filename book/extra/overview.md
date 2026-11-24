@@ -35,3 +35,4 @@ We beginnen eerst met basisvaardigheden van het programmeren, dat doen we in de 
 **Je moet eerst een IDE installeren om Java programma's te kunnen schrijven en uitvoeren.** Verder moet je weten hoe je een project maken. Het is vooral belangrijk dat je weet hoe je een project aanmaakt. **Dit moet je namelijk voor elke opdracht weer doen**. 
 1. [Installatie](installatie.md)
 2. [Java project aanmaken](project_aanmaken.md)
+3. [Programma Schrijven en Uitvoeren](programma_uitvoeren.md)

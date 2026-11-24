@@ -10,7 +10,7 @@ Let op in dit voorbeeld heb ik al een project en Class bestand. Heb je dat nog n
 ## Wat te doen
 Als het goed is heb je een `PrintOpdracht.java` in je project. Wanneer je deze opent zie het volgende:
 
-```{figure} figures/programma_pre.png
+```{figure} ../figures/programma_pre.png
 ---
 width: 50%
 align: center
@@ -21,7 +21,7 @@ align: center
 >**Let op!** Hier zit nog geen zelfgeschreven code!
 
 We gaan nu code toevoegen en uitvoeren, wanneer je de volgende 3 stappen hebt uitgevoerd ziet het er zo uit:
-```{figure} figures/voorbeeld_prog_uitvoeren.png
+```{figure} ../figures/voorbeeld_prog_uitvoeren.png
 ---
 width: 50%
 align: center
