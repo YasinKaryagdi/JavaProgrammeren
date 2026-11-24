@@ -15,10 +15,11 @@ Als het goed is heb je een `PrintOefening.java` in je project. Wanneer je deze o
 width: 100%
 align: center
 ---
-<Let op! Hier zit nog geen zelfgeschreven code!>
+
 ```
 
-### Zelf toevoegen en uitvoeren
+>**Let op!** Hier zit nog geen zelfgeschreven code!
+
 We gaan nu code toevoegen en uitvoeren, in 3 stappen (kijk naar de afbeelding):
 1. Wanneer we code schrijven stoppen we het in de main methode. **Let op!!** de code moet echt tussen de haakjes gestopt worden!!! het moet dus tussen de **{** en de **}** van main.
 2. We klikken op de "run" knopje. Dat is een groen knopje bovenin.
