@@ -11,5 +11,5 @@ In dit hoofdstuk leer je wat variabelen zijn en hoe je ze in Java gebruikt. Je l
    Je leert variabelen declareren en initialiseren, en ze nieuwe waarden geven. Met eenvoudige printopdrachten bekijk je wat er in de variabelen staat.
 
 
-3. [Printopdracht nader uitgelegd](oefeningen_variabelen_print.md)  
-   Je oefent met tekst en variabelen tonen in de console. Je gebruikt **println**, plakt tekst en waarden aan elkaar en gebruikt **printf** om de uitvoer in een gekozen formaat te tonen.
+3. [Oefening: Variabelen en printopdrachten in Java](oefeningen_variabelen_print.md)  
+   Je oefent met het tonen van tekst in de console. Je gebruikt hierbij je kennis over variabelen. Verder gebruik je **println**, plak je tekst en waarden aan elkaar en gebruik je **printf** om de uitvoer in een gekozen formaat te tonen.
