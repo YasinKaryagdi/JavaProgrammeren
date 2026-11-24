@@ -90,7 +90,7 @@ Bekijk de namen hieronder.
 
 Als je de opgave hebt gemaakt, kun je de uitwerking hieronder bekijken.
 
-```{solution}
+```{solution} java-variable-names
 :label: java-variable-names-solution
 :class: dropdown
 
