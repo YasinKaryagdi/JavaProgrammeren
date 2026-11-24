@@ -15,7 +15,7 @@ Als het goed is heb je een `PrintOefening.java` in je project. Wanneer je deze o
 width: 100%
 align: center
 ---
-<Let op! Hier zit nog geen zelfgeschreven code!>
+Let op! Hier zit nog geen zelfgeschreven code!
 ```
 
 ### Zelf toevoegen en uitvoeren
@@ -29,5 +29,5 @@ We gaan nu code toevoegen en uitvoeren, in 3 stappen (kijk naar de afbeelding):
 width: 100%
 align: center
 ---
-<De relevante onderdelen van elke stap is omcirkeld. Als je alle drie de stappen hebt uitgevoerd hoor je een 7 te zien in je console.>
+De relevante onderdelen van elke stap is omcirkeld. Als je alle drie de stappen hebt uitgevoerd hoor je een 7 te zien in je console.
 ```
