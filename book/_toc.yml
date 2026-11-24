@@ -7,7 +7,7 @@ parts:
     chapters:
       # - file: skillstree.md
       #   title: "🌲 Java Skill Tree"
-      - file: overview
+      - file: extra/overview
       - file: H1/hoofdstuk1
         sections:
           - file: H1/variabelen
