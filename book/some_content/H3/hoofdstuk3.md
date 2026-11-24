@@ -1,5 +1,5 @@
 # Decompositie, pseudocode, keuzes en rekenen
-Hey lieve leerling! Wat fijn dat je zo enthousiast bent!!! Helaas ben ik nog druk bezig met het opstellen van deze site... Dus voorlopig is H3 net een mythe, hahaha.... Oke, wordt eens tijd dat we weer eens aan de slag gingen! Wens je nog een fijne dag!!! Als je vragen hebt kan je ze natuurlijk altijd stellen
+Hey lieve leerling! Wat fijn dat je zo enthousiast bent!!! Helaas ben ik nog druk bezig met het opstellen van deze site... Dus voorlopig is H3 nog een mythe, hahaha.... Oke, het wordt eens tijd dat we weer eens aan de slag gingen! Wens je nog een fijne dag!!! Als je vragen hebt kan je ze natuurlijk altijd stellen.
 
 <!-- # Afronden, machten en wortels
 
