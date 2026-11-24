@@ -5,10 +5,10 @@ Dat is erg normaal!
 
 Ik laat je hier zien wat de bedoeling is.
 
-Let op in dit voorbeeld heb ik al een project en Class bestand. Heb je dat nog niet? Kijk naar [Java project aanmaken](project_aanmaken.md). Hier maken we een project met de naam `PrintOpdracht`
+Let op in dit voorbeeld heb ik al een project en Class bestand. Heb je dat nog niet? Kijk naar [Java project aanmaken](project_aanmaken.md). Hier maken we een project met de naam `PrintOefening`
 
 ## Wat te doen
-Als het goed is heb je een `PrintOpdracht.java` in je project. Wanneer je deze opent zie het volgende:
+Als het goed is heb je een `PrintOefening.java` in je project. Wanneer je deze opent zie het volgende:
 
 ```{figure} ../figures/programma_pre.png
 ---
