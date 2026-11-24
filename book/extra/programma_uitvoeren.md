@@ -12,7 +12,7 @@ Als het goed is heb je een `PrintOpdracht.java` in je project. Wanneer je deze o
 
 ```{figure} ../figures/programma_pre.png
 ---
-width: 50%
+width: 100%
 align: center
 ---
 
@@ -23,7 +23,7 @@ align: center
 We gaan nu code toevoegen en uitvoeren, wanneer je de volgende 3 stappen hebt uitgevoerd ziet het er zo uit:
 ```{figure} ../figures/voorbeeld_prog_uitvoeren.png
 ---
-width: 50%
+width: 100%
 align: center
 ---
 
