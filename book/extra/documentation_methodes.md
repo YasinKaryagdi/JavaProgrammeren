@@ -1,0 +1,1 @@
+## TODO, hier komen alle methodes, hun invoer, uitvoer type, en werking

@@ -5,64 +5,64 @@ parts:
   - caption: Cursus Java voor havo/vwo leerlingen
     numbered: false
     chapters:
-      # - file: some_content/skillstree.md
+      # - file: skillstree.md
       #   title: "🌲 Java Skill Tree"
-      - file: some_content/overview
-      - file: some_content/hoofdstuk1
+      - file: overview
+      - file: H1/hoofdstuk1
         sections:
-          - file: some_content/variabelen
-          - file: some_content/declareren_initialiseren_en_toekennen
-          - file: some_content/oefeningen_variabelen_print
-          #- file: some_content/variabelen_printen_oefenen
-          #- file: some_content/variabelen_parsons
-      - file: some_content/hoofdstuk2
+          - file: H1/variabelen
+          - file: H1/declareren_initialiseren_en_toekennen
+          - file: H1/oefeningen_variabelen_print
+          #- file: variabelen_printen_oefenen
+          #- file: variabelen_parsons
+      - file: H2/hoofdstuk2
         sections:
-          - file: some_content/blackbox
-          - file: some_content/input
-          - file: some_content/testen_debuggen
-          - file: some_content/booleaans_basis
-          - file: some_content/oefeningen_week2
-      - file: some_content/hoofdstuk3
+          - file: H2/blackbox
+          - file: H2/input
+          - file: H2/testen_debuggen
+          - file: H2/booleaans_basis
+          - file: H2/oefeningen_week2
+      - file: H3/hoofdstuk3
         # sections:
-        #   - file: some_content/oefeningen_hoofdstuk3
-      # - file: some_content/hoofdstuk4
+        #   - file: oefeningen_hoofdstuk3
+      # - file: hoofdstuk4
       #   sections:
-      #     - file: some_content/booleaans
-      #     - file: some_content/booleaans_oefenen
-      # - file: some_content/hoofdstuk5
+      #     - file: booleaans
+      #     - file: booleaans_oefenen
+      # - file: hoofdstuk5
       #   sections:
-      #     - file: some_content/if
-      #     - file: some_content/if_else
-      #     - file: some_content/oefeningen_if_else
-      #     - file: some_content/if_elif_else
-      #     - file: some_content/oefeningen_if_elif_else
-      # - file: some_content/hoofdstuk6
-      # - file: some_content/hoofdstuk7
+      #     - file: if
+      #     - file: if_else
+      #     - file: oefeningen_if_else
+      #     - file: if_elif_else
+      #     - file: oefeningen_if_elif_else
+      # - file: hoofdstuk6
+      # - file: hoofdstuk7
       #   sections:
-      #     - file: some_content/while
-      #     - file: some_content/SPS_while
-      #     - file: some_content/oefeningen_while
-      # - file: some_content/hoofdstuk8
+      #     - file: while
+      #     - file: SPS_while
+      #     - file: oefeningen_while
+      # - file: hoofdstuk8
       #   sections:
-      #     - file: some_content/for_loop
-      #     - file: some_content/SPS_for_loop
-      #     - file: some_content/oefeningen_for_loop
-      # - file: some_content/hoofdstuk9
+      #     - file: for_loop
+      #     - file: SPS_for_loop
+      #     - file: oefeningen_for_loop
+      # - file: hoofdstuk9
       #   sections:
-      #     - file: some_content/SPS_functies.ipynb
-      # - file: some_content/hoofdstuk10
+      #     - file: SPS_functies.ipynb
+      # - file: hoofdstuk10
       #   sections:
-      #     - file: some_content/snackmachine
-      #     - file: some_content/treinreisplanner
-      #     - file: some_content/raadt_het_getal
+      #     - file: snackmachine
+      #     - file: treinreisplanner
+      #     - file: raadt_het_getal
 
   - caption: Installatie en project aanmaken
     chapters:
-    - file: some_content/installatie
-    - file: some_content/project_aanmaken
+    - file: extra/installatie
+    - file: extra/project_aanmaken
       sections:
-        - file: some_content/class_bestand_aanmaken
-        - file: some_content/Jframe_bestand_aanmaken
+        - file: extra/class_bestand_aanmaken
+        - file: extra/JFrame_bestand_aanmaken
 
   # - caption: Miscellaneous
   #   chapters:
