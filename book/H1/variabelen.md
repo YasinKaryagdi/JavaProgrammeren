@@ -60,8 +60,8 @@ Java laat technisch ook namen met een underscore (`_`) of dollarteken (`$`) toe.
 
 ### Gebruikelijke afspraken
 
-- Begin een variabelenaam met een kleine letter.
-- Gebruik een beschrijvende naam, zoals `leeftijd` of `straatnaam`.
+- Begin een variabelenaam met een **kleine letter**.
+- Gebruik een **beschrijvende naam**, zoals `leeftijd` of `straatnaam`.
 - Bestaat de naam uit meerdere woorden? Gebruik dan **camelCase**: schrijf de woorden aan elkaar en geef ieder volgend woord een hoofdletter, bijvoorbeeld `aantalLeerlingen` of `kleinsteGetal`.
 
 Afspraken maken code duidelijker, maar zijn niet altijd hetzelfde als regels die Java afdwingt. Zo is `Classificatie` technisch een geldige naam, maar `classificatie` past beter bij de gebruikelijke schrijfwijze voor variabelen.
