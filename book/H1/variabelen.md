@@ -40,7 +40,7 @@ Een type bepaalt wat voor soort waarde een variabele kan bevatten. Veelgebruikte
 - **`int`**: een geheel getal, bijvoorbeeld `4` of `-12`
 - **`double`**: een kommagetal, bijvoorbeeld `3.14` of `-14.553`. In Java schrijf je een **punt**, geen komma.
 - **`char`**: één karakter, bijvoorbeeld `'A'`; gebruik enkele aanhalingstekens.
-- **`String`**: tekst, bijvoorbeeld `"Hallo!"`; gebruik dubbele aanhalingstekens.
+- **`String`**: tekst (dus een reeks karakters), bijvoorbeeld `"Hallo!"`; gebruik dubbele aanhalingstekens.
 - **`boolean`**: `true` of `false`
 
 **Let op:** `String` begint met een hoofdletter. Java maakt onderscheid tussen hoofdletters en kleine letters: `String` en `string` zijn niet hetzelfde. Dat geldt ook voor variabelen: `anderGetal` en `andergetal` zijn **verschillende** namen.
