@@ -23,11 +23,11 @@ String naam;
 boolean isLeerling;
 ```
 
-Deze variabelen zijn nu gedeclareerd. We hebben ze een naam en een type gegeven. We hebben een plekje vrijgemaakt in onze computer om er waarde in op te slaan. Maar deze zitten er nog niet in! Ze hebben namelijk nog geen beginwaarde gekregen. **Een variabele die je declareert moet eerst een waarde krijgen voordat je die variabele kunt gebruiken** in bijvoorbeeld in een printopdracht.
+Deze variabelen zijn nu gedeclareerd. We hebben ze een naam en een type gegeven. We hebben een plekje vrijgemaakt in onze computer om er waardes in op te slaan. Maar deze waardes zit er nog niet in! De variabelen hebben namelijk nog geen beginwaarde gekregen. **Een variabele die je declareert moet eerst een waarde krijgen voordat je die variabele kunt gebruiken**. Er zit namelijk na het declareren "nog niets in". Dit resulteert in een foutmelding wanneer je ze probeert te gebruiken, bijvoorbeeld tijdens een printopdracht, probeer maar:
 
-Wat gebeurt er de variabele gelijk gebruikt nadat je het declareert?
+Wat gebeurt er wanneer je de variabele gelijk gebruikt nadat je het declareert?
 ```java
-// Verwijder deze code na het testen
+// Verwijder deze regels code na het testen
 int cijfer;
 System.out.println(cijfer); // Wat gebeurt er als je deze code runt?
 ```
