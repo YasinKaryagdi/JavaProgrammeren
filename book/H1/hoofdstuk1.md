@@ -4,14 +4,11 @@ In dit hoofdstuk leer je wat variabelen zijn en hoe je ze in Java gebruikt. Je l
 
 ## Dit hoofdstuk bevat
 1. [Variabelen](variabelen.md)
-
    Je leert wat variabelen zijn, welke typen waarden ze kunnen bevatten en aan welke eisen de naamgeving van variabelen moet voldoen.
 
 2. [Declareren, initialiseren en toekennen](declareren_initialiseren_en_toekennen.md)
-
    Je leert variabelen declareren en initialiseren, en ze nieuwe waarden geven. Met eenvoudige printopdrachten bekijk je wat er in de variabelen staat.
 
 
 3. [Printopdracht nader uitgelegd](oefeningen_variabelen_print.md)
-
    Je oefent met tekst en variabelen tonen in de console. Je gebruikt **println**, plakt tekst en waarden aan elkaar en gebruikt **printf** om de uitvoer in een gekozen formaat te tonen.
