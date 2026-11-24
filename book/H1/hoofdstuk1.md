@@ -3,6 +3,7 @@
 In dit hoofdstuk leer je wat variabelen zijn en hoe je ze in Java gebruikt. Je leert variabelen declareren, initialiseren en nieuwe waarden geven. Met eenvoudige printopdrachten bekijk je wat er in variabelen staat.
 
 ## Dit hoofdstuk bevat
+
 1. [Variabelen](variabelen.md)
    Je leert wat variabelen zijn, welke typen waarden ze kunnen bevatten en aan welke eisen de naamgeving van variabelen moet voldoen.
 
