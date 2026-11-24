@@ -1,16 +1,17 @@
 # Oefening: Variabelen en printopdrachten in Java
 
-In deze oefening leer je tekst op het scherm te tonen en variabelen in uitvoer te gebruiken. Je werkt in één Java-programma en voert dat uit in de console.
+Je oefent met `println`, variabelen en het combineren van tekst en waarden. Eerst bekijk je een voorbeeld, daarna maak je zelf een gepersonaliseerd uitvoer in de Console. `printf` is een extra uitdaging.
 
 ## Inhoud
 
 1. [Starten](#starten)
-2. [De println-opdracht](#1-de-println-opdracht)
-3. [Variabelen en concatenatie](#2-variabelen-en-concatenatie)
-4. [Getallen in uitvoer](#3-getallen-in-uitvoer)
-5. [Uitvoer opmaken met printf](#4-uitvoer-opmaken-met-printf)
-6. [Eindopdracht](#5-eindopdracht-maak-je-eigen-uitvoer)
-7. [Afronden en inleveren](#afronden-en-inleveren)
+2. [Voorspel de uitvoer](#1-voorspel-de-uitvoer)
+3. [Voer het programma uit](#2-voer-het-programma-uit)
+4. [Bekijk de code](#3-bekijk-de-code)
+5. [Pas de code aan](#4-pas-de-code-aan)
+6. [Maak je eigen uitvoer](#5-maak-je-eigen-uitvoer)
+7. [Uitdaging: gebruik printf](#6-uitdaging-gebruik-printf)
+8. [Afronden en inleveren](#afronden-en-inleveren)
 
 ## Starten
 
@@ -18,145 +19,114 @@ Maak in Eclipse een Java-klasse met de naam `PrintOefening`. De bestandsnaam wor
 
 1. Plak de code hieronder in de klasse.
 2. Sla het bestand op.
-3. Klik op **Run** om het programma uit te voeren.
-4. Bekijk de uitvoer in de **Console**.
-5. Pas bij elke opdracht de code aan en voer het programma opnieuw uit.
+3. Voer het programma nog niet uit. Begin eerst bij **Voorspel de uitvoer**.
 
-De opdrachten staan samen in één programma. Je hoeft de klasse en de `main`-methode niet zelf opnieuw te schrijven.
+De klasse en de `main`-methode staan al in de code. Je hoeft die niet zelf te maken.
 
 ```java
 public class PrintOefening {
     public static void main(String[] args) {
 
-        // 1. De println-opdracht
-        System.out.println("Hallo wereld");
-
-        // 2. Variabelen en concatenatie
         String voornaam = "Vwo";
         String achternaam = "Leerling";
+        int leeftijd = 13;
 
-        // OPDRACHT: print hier een begroeting met voornaam en achternaam.
+        System.out.println("Hallo wereld");
+        System.out.println("Hallo " + voornaam + " " + achternaam); // <- de begroetingsregel
+        System.out.println("Leeftijd: " + leeftijd);
 
-        int leeftijdVoorbeeld = 16;
-
-        // OPDRACHT: print hier een zin met leeftijdVoorbeeld.
-
-        // 3. Getallen in uitvoer
-        double cijfer = 7.5;
-        System.out.println("Mijn cijfer is: " + cijfer);
-
-        String cijferAlsTekst = String._(cijfer); // <- Welke methode moet je hier gebruiken?
-        System.out.println("Het cijfer als tekst is: " + cijferAlsTekst);
-
-        String straatnaam = "Dorpsstraat";
-        int huisnummer = 12;
-
-        // OPDRACHT: print hier het adres met straatnaam en huisnummer.
-
-        // 4. Uitvoer opmaken met printf
-        String stad = "Utrecht";
-        System.out.printf("Ik woon in de stad %s.%n", stad);
-
-        // OPDRACHT: print hier je voornaam met printf.
-
-        // 5. Eindopdracht
-        // OPDRACHT: maak hieronder de variabelen naam, leeftijd en hobby.
-        // Bijvoorbeeld: String naam = "...";
-        // Bijvoorbeeld: int leeftijd = ...;
-        // Bijvoorbeeld: String hobby = "...";
-
-        // OPDRACHT: print met printf een zin met naam, leeftijd en hobby.
-
+        leeftijd = 18;
+        System.out.println("Nieuwe leeftijd: " + leeftijd);
     }
 }
 ```
 
-> Java is hoofdlettergevoelig. Let op hoofdletters in namen zoals `String` en `System.out.println`. Java-opdrachten eindigen meestal op een puntkomma (`;`).
+> **Let op!** Java-opdrachten eindigen meestal op een puntkomma (`;`).
 
-## 1. De println-opdracht
+## 1. Voorspel de uitvoer
 
-Met `System.out.println()` laat je de computer iets in de console tonen. Tekst zet je tussen dubbele aanhalingstekens.
+Lees de code rustig door. Schrijf op wat je denkt dat het programma in de Console toont. Schrijf de regels in de juiste volgorde op.
 
-**Opdracht:** verander de tekst `Hallo wereld` in:
+Denk ook na over deze vragen:
 
-```text
-Ik leer programmeren!
-```
+- Welke zin toont deze regel: `System.out.println("Leeftijd: " + leeftijd);`?
+- Wat toont de laatste `println`-regel? Welke waarde heeft leeftijd tijdens deze regel?
+- Hoeveel regels tekst verschijnen er in de Console?
 
-Voer het programma uit en controleer de uitvoer.
+## 2. Voer het programma uit
 
-## 2. Variabelen en concatenatie
+1. Klik op **Run**.
+2. Bekijk de uitvoer in de **Console**.
+3. Vergelijk de uitvoer met je voorspelling.
 
-Een variabele bewaart een waarde. In Java vermeld je bij het maken van een variabele welk type waarde erin staat. `String` is voor tekst en `int` is voor een geheel getal.
+Noteer het verschil tussen je voorspelling en de uitvoer.
 
-Met `+` kun je tekst aan elkaar plakken. Dit heet **concatenatie**. Java voegt zelf geen spaties toe.
+## 3. Bekijk de code
 
-**Opdrachten:**
+Beantwoord de vragen. Je kunt hiervoor de code en de uitvoer bekijken.
 
-1. Gebruik de variabelen `voornaam` en `achternaam` om deze uitvoer te maken:
+1. Welke variabelen staan in het programma en welk type heeft elke variabele?
+2. Welke regel geeft `leeftijd` een nieuwe waarde?
+3. Wat wordt met `+` samengevoegd in de begroetingsregel? Wat is de functie van `" "`?
+
+## 4. Pas de code aan
+
+**Voer na iedere aanpassing het programma uit. Controleer steeds of de uitvoer klopt met wat je verwacht.**
+
+1. Verander de tekst `Hallo wereld` in:
 
    ```text
-   Hallo Vwo Leerling
+   Ik leer programmeren!
    ```
 
-2. Gebruik `leeftijdVoorbeeld` in een zin, bijvoorbeeld: `Ik ben 16 jaar oud.`
-3. Verander de waarden van de variabelen en voer het programma opnieuw uit.
+2. Verander de waarde in de toekenning `leeftijd = 18;` bijvoorbeeld naar `leeftijd = -21;`.
 
-## 3. Getallen in uitvoer
+3. Verander de regel `System.out.println("Hallo " + voornaam + " " + achternaam);`, toon eerst je achternaam, en pas daarna je voornaam. 
 
-In Java kun je een getal met tekst combineren als een deel van de uitdrukking al tekst is:
+## 5. Maak je eigen uitvoer
 
-```java
-System.out.println("Mijn cijfer is: " + cijfer);
-```
+Maak onderaan in de `main`-methode een klein profiel met je eigen gegevens.
 
-Java zet het getal dan automatisch om naar tekst voor de uitvoer. Je hoeft hier dus niet eerst een conversie uit te voeren. Met `String.valueOf(...)` kun je een getal wel expliciet omzetten naar een `String`, bijvoorbeeld als je de tekst later verder wilt gebruiken.
+1. Maak een tekst variabele met de naam `naam`.
+2. Maak een geheel getal variabele met de naam `profielLeeftijd`.
+3. Maak een tekst variabele met de naam `hobby`.
+4. Geef de variabelen passende waarden.
+5. Print met `println` een zin waarin je naam, leeftijd en hobby staan.
 
-**Opdrachten:**
-
-1. Verander de waarde van `cijfer` en bekijk de uitvoer.
-2. Gebruik `straatnaam` en `huisnummer` om een adres te printen.
-3. Zorg zelf voor de spatie tussen de straatnaam en het huisnummer.
-
-## 4. Uitvoer opmaken met printf
-
-Java heeft geen f-strings. Met `printf` kun je wel waarden op vaste plekken in een tekst zetten. Je gebruikt daarvoor een aanduiding in de tekst:
-
-- `%s` voor tekst (`String`)
-- `%d` voor een geheel getal (`int`)
-- `%f` voor een kommagetal (`double`)
-- `%.1f` voor een kommagetal met één cijfer achter de komma
-- `%n` voor een nieuwe regel
-
-Voorbeeld:
-
-```java
-String stad = "Utrecht";
-System.out.printf("Ik woon in de stad %s.%n", stad);
-```
-
-De eerste `%s` wordt vervangen door de waarde van `stad`.
-
-**Opdracht:** gebruik `printf` om je voornaam in een zin te tonen. Gebruik de variabele `voornaam`.
-
-## 5. Eindopdracht: maak je eigen uitvoer
-
-Maak in het laatste deel van het programma drie variabelen:
-
-- `naam` met het type `String`
-- `leeftijd` met het type `int`
-- `hobby` met het type `String`
-
-Gebruik `printf` om een nette zin te tonen waarin alle drie de waarden voorkomen. Je zin kan er bijvoorbeeld zo uitzien:
+Je uitvoer kan er bijvoorbeeld zo uitzien:
 
 ```text
-Ik ben Noor, 16 jaar oud en mijn hobby is tekenen.
+Ik ben Noor Bakker, 16 jaar oud en mijn hobby is tekenen.
 ```
 
-Controleer of je de juiste aanduidingen gebruikt: `%s` voor tekst en `%d` voor een geheel getal.
+Maar het mag ook uitgebreider! 
+
+**Gebruik voor dit profiel ten minste de nieuwe variabelen `naam`, `profielLeeftijd` en `hobby`.**
+
+## 6. Uitdaging: gebruik printf (optioneel opdracht)
+
+`System.out.printf()` is een andere manier om uitvoer op te maken. In de tekst zet je invulcodes op de plekken waar waarden moeten komen:
+
+- `%s` voor tekst
+- `%d` voor een geheel getal
+- `%f` voor kommagetallen
+- `%n` voor een nieuwe regel
+
+De waarden van de variabelen na de tekst komen op volgorde op de plekken van de invulcodes. Bekijk dit voorbeeld:
+
+```java
+System.out.printf("Hallo %s!%n Je bent %d jaar!!", voornaam, leeftijd);
+```
+
+Hier vervangt Java `%s` door de waarde van `voornaam`, begint `%n` een nieuwe regel en vervangt Java `%d` door de waarde van `leeftijd`.
+
+**Uitdaging:** print je zin uit de eindopdracht ook met `printf`. Gebruik de juiste invulcode voor tekst en voor het gehele getal.
+
+Tip: de invulcodes en variabelen moeten in dezelfde volgorde staan.
 
 ## Afronden en inleveren
 
 1. Sla `PrintOefening.java` op.
-2. Voer het programma nog één keer uit en controleer of je eindopdracht zichtbaar is in de Console.
-3. Lever het `.java`-bestand in via de opdracht in Itslearning.
+2. Voer het programma nog één keer uit.
+3. Controleer of je eigen zin zichtbaar is in de Console.
+4. Lever het `.java`-bestand in via de opdracht in Itslearning.
