@@ -14,7 +14,7 @@ only_build_toc_files: true
 
 html:
   favicon: "figures/TB_favicon.ico"
-  baseurl: "https://github.com/YasinKaryagdi/JavaProgrammeren"
+  baseurl: "https://yasinkaryagdi.github.io/JavaProgrammeren/"
   use_repository_button: true
   use_download_button: true
 
