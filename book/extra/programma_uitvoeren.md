@@ -18,7 +18,7 @@ align: center
 **Let op!** Hier zit nog geen zelfgeschreven code in!
 ```
 
-We gaan nu code toevoegen en uitvoeren, in 3 stappen (kijk naar de afbeelding):
+We gaan nu code toevoegen en uitvoeren. Dit doen we in 3 stappen (kijk naar de afbeelding):
 1. Wanneer we code schrijven stoppen we het in de main methode. **Let op!!** de code moet echt tussen de haakjes gestopt worden!!! het moet dus tussen de **{** en de **}** van main.
 2. We klikken op de "run" knopje. Dat is een groen knopje bovenin.
 3. We kijken naar het resultaat in de "console". Die zit vaak onderin.
