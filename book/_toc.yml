@@ -7,22 +7,22 @@ parts:
     chapters:
       # - file: some_content/skillstree.md
       #   title: "🌲 Java Skill Tree"
-      - file: some_content/extra/overview
-      - file: some_content/H1/hoofdstuk1
+      - file: some_content/overview
+      - file: some_content/hoofdstuk1
         sections:
-          - file: some_content/H1/variabelen
-          - file: some_content/H1/declareren_initialiseren_en_toekennen
-          - file: some_content/H1/oefeningen_variabelen_print
+          - file: some_content/variabelen
+          - file: some_content/declareren_initialiseren_en_toekennen
+          - file: some_content/oefeningen_variabelen_print
           #- file: some_content/variabelen_printen_oefenen
           #- file: some_content/variabelen_parsons
-      - file: some_content/H2/hoofdstuk2
+      - file: some_content/hoofdstuk2
         sections:
-          - file: some_content/H2/blackbox
-          - file: some_content/H2/input
-          - file: some_content/H2/testen_debuggen
-          - file: some_content/H2/booleaans_basis
-          - file: some_content/H2/oefeningen_week2
-      - file: some_content/H3/hoofdstuk3
+          - file: some_content/blackbox
+          - file: some_content/input
+          - file: some_content/testen_debuggen
+          - file: some_content/booleaans_basis
+          - file: some_content/oefeningen_week2
+      - file: some_content/hoofdstuk3
         # sections:
         #   - file: some_content/oefeningen_hoofdstuk3
       # - file: some_content/hoofdstuk4
@@ -58,11 +58,11 @@ parts:
 
   - caption: Installatie en project aanmaken
     chapters:
-    - file: some_content/extra/installatie
-    - file: some_content/extra/project_aanmaken
+    - file: some_content/installatie
+    - file: some_content/project_aanmaken
       sections:
-        - file: some_content/extra/class_bestand_aanmaken
-        - file: some_content/extra/Jframe_bestand_aanmaken
+        - file: some_content/class_bestand_aanmaken
+        - file: some_content/Jframe_bestand_aanmaken
 
   # - caption: Miscellaneous
   #   chapters:
