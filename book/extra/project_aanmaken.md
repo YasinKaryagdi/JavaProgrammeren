@@ -11,7 +11,7 @@ align: center
 ---
 Begin linksboven bij "File", ga dan via "New" naar "Java Project"
 ```
-
+Top! Nu gaan we het een naam geven en daarwerkelijk aanmaken.
 ```{figure} ../figures/proj_2.png
 ---
 width: 100%
