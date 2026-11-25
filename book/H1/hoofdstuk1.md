@@ -1,4 +1,4 @@
-# H1: Variabelen declareren, toekennen en printen
+# Variabelen declareren, toekennen en printen
 
 In dit hoofdstuk leer je wat variabelen zijn en hoe je ze in Java gebruikt. Je leert variabelen declareren, initialiseren en nieuwe waarden geven. Met eenvoudige printopdrachten bekijk je wat er in variabelen staat.
 
