@@ -11,7 +11,7 @@ align: center
 Begin linksboven bij je project, rechtermuisknop hierop. Ga dan via "New" naar "Class".
 ```
 
-```{figure} ../figures/class_2
+```{figure} ../figures/class_2.png
 ---
 width: 100%
 align: center

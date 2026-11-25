@@ -12,7 +12,7 @@ align: center
 Begin linksboven bij "File", ga dan via "New" naar "Java Project"
 ```
 
-```{figure} ../figures/proj_2
+```{figure} ../figures/proj_2.png
 ---
 width: 100%
 align: center
