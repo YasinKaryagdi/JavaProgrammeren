@@ -20,9 +20,9 @@ In deze cursus gaan we **visueel programmeren** in **Java**. Aan het einde van d
 
 ## Opbouw van de cursus
 We beginnen eerst met wat basisvaardigheden van het programmeren, dat doen we in de eerste 3 lessen:
-1. [Variabelen declareren, toekennen en printen](../H1/hoofdstuk1.md)
-2. [User input, output en debuggen](../H2/hoofdstuk2.md)
-3. [Decompositie, psuedocode, keuzes en rekenen](../H3/hoofdstuk3)
+1. [H1: Variabelen declareren, toekennen en printen](../H1/hoofdstuk1.md)
+2. [H2: User input, output en debuggen](../H2/hoofdstuk2.md)
+3. [H3: Decompositie, psuedocode, keuzes en rekenen](../H3/hoofdstuk3)
 <!-- 4. [To be or not to be ...Booleans](hoofdstuk4.md)
 5. [Keuzes, keuzes, keuzes...ofwel if, elif, else](hoofdstuk5.md)
 6. [Random variabelen, Steen papier schaar spelen tegen de computer](hoofdstuk6.ipynb)
