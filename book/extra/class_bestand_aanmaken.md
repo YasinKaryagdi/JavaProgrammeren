@@ -1,4 +1,6 @@
 # Class bestand aanmaken
+We gaan nu een class bestand maken
+
 ## Maak Class genaamd "PrintOefening"
 We nemen deze naam als voorbeeld omdat we hiermee aan de slag gaan in week 1.
 ```{figure} ../figures/class_1.png
